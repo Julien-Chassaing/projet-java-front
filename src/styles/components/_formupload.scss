@@ -1,0 +1,191 @@
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  &:hover {
+    background-color: #45a049;
+  }
+}
+.container {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 20px;
+}
+.btn-push {
+  display: block;
+  z-index: 0;
+  text-decoration: none;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+  span {
+    position: relative;
+    z-index: 2;
+  }
+  &:after {
+    position: absolute;
+    content: "";
+    z-index: -2;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: $color-1;
+    transition: all 0.35s;
+  }
+  &:hover {
+    color: #fff;
+    &:after {
+      width: 100%;
+    }
+  }
+}
+.btnupload {
+  display: block;
+  z-index: 0;
+  width: 200px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+  span {
+    position: relative;
+    z-index: 2;
+  }
+  &:after {
+    position: absolute;
+    content: "";
+    z-index: -2;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: $color-1;
+    transition: all 0.35s;
+  }
+  &:hover {
+    color: #fff;
+    &:after {
+      width: 100%;
+    }
+  }
+}
+
+.btn-del {
+  display: block;
+  z-index: 0;
+  width: 150px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+  span {
+    position: relative;
+    z-index: 2;
+  }
+  &:after {
+    position: absolute;
+    content: "";
+    z-index: -2;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #cc1414;
+    transition: all 0.35s;
+  }
+  &:hover {
+    color: #fff;
+    &:after {
+      width: 100%;
+    }
+  }
+}
+
+.btn-back {
+  display: block;
+  z-index: 0;
+  width: 150px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+  span {
+    position: relative;
+    z-index: 2;
+  }
+  &:after {
+    position: absolute;
+    content: "";
+    z-index: -2;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: $color-1;
+    transition: all 0.35s;
+  }
+  &:hover {
+    color: #fff;
+    &:after {
+      width: 100%;
+    }
+  }
+}
